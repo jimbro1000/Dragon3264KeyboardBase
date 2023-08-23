@@ -1055,6 +1055,78 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole") (at 31.75 163.83 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
+    (uuid 0b8df494-9429-4cc3-93e3-83bb3eeedc08)
+    (property "Reference" "H3" (at 34.29 163.195 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 34.29 165.735 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 31.75 163.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 31.75 163.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "keyboardTest"
+        (path "/f35e9616-f481-4cdb-9e32-caf70bd322dd"
+          (reference "H3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 60.96 178.562 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
+    (uuid 135a0b03-45ab-4c28-bb2f-5f996a027c11)
+    (property "Reference" "H6" (at 63.5 177.927 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 63.5 180.467 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 60.96 178.562 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 60.96 178.562 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "keyboardTest"
+        (path "/f35e9616-f481-4cdb-9e32-caf70bd322dd"
+          (reference "H6") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 90.17 192.278 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
+    (uuid 233cba08-5712-475b-970e-dcc4513fb5c8)
+    (property "Reference" "H11" (at 92.71 191.643 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 92.71 194.183 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 90.17 192.278 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 90.17 192.278 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "keyboardTest"
+        (path "/f35e9616-f481-4cdb-9e32-caf70bd322dd"
+          (reference "H11") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 163.83 93.98 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2da796f0-328f-4566-a4fa-83c5c66defe6)
@@ -1110,6 +1182,30 @@
       (project "keyboardTest"
         (path "/f35e9616-f481-4cdb-9e32-caf70bd322dd"
           (reference "#PWR03") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 32.766 177.546 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
+    (uuid 451eae2d-a5da-4269-be9f-457015849f52)
+    (property "Reference" "H4" (at 35.306 176.911 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 35.306 179.451 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 32.766 177.546 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 32.766 177.546 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "keyboardTest"
+        (path "/f35e9616-f481-4cdb-9e32-caf70bd322dd"
+          (reference "H4") (unit 1)
         )
       )
     )
@@ -1251,7 +1347,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 59.69 132.588 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6d0ad0b5-61fa-42bf-8191-b21d3619c4a4)
     (property "Reference" "H1" (at 62.23 131.953 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1269,6 +1365,54 @@
       (project "keyboardTest"
         (path "/f35e9616-f481-4cdb-9e32-caf70bd322dd"
           (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 89.3819 164.2902 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
+    (uuid 7a179cfe-f27b-40f1-a253-3e1478491a12)
+    (property "Reference" "H9" (at 91.9219 163.6552 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 91.9219 166.1952 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 89.3819 164.2902 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 89.3819 164.2902 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "keyboardTest"
+        (path "/f35e9616-f481-4cdb-9e32-caf70bd322dd"
+          (reference "H9") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 89.662 178.308 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
+    (uuid 83714e1c-db82-449e-952d-9d986831c698)
+    (property "Reference" "H10" (at 92.202 177.673 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 92.202 180.213 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 89.662 178.308 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 89.662 178.308 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "keyboardTest"
+        (path "/f35e9616-f481-4cdb-9e32-caf70bd322dd"
+          (reference "H10") (unit 1)
         )
       )
     )
@@ -1341,6 +1485,30 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole") (at 61.468 193.548 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
+    (uuid 8e33e375-070f-4e46-8ebf-e2f9d44d13bc)
+    (property "Reference" "H8" (at 64.008 192.913 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 64.008 195.453 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 61.468 193.548 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 61.468 193.548 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "keyboardTest"
+        (path "/f35e9616-f481-4cdb-9e32-caf70bd322dd"
+          (reference "H8") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 199.39 106.68 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 907e37ca-44e8-455b-864a-dd4dc6904c77)
@@ -1366,6 +1534,30 @@
       (project "keyboardTest"
         (path "/f35e9616-f481-4cdb-9e32-caf70bd322dd"
           (reference "#PWR08") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 61.214 163.576 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
+    (uuid d7e89237-2597-40d1-a28c-81ae35529e4c)
+    (property "Reference" "H7" (at 63.754 162.941 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 63.754 165.481 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 61.214 163.576 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 61.214 163.576 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "keyboardTest"
+        (path "/f35e9616-f481-4cdb-9e32-caf70bd322dd"
+          (reference "H7") (unit 1)
         )
       )
     )
@@ -1447,7 +1639,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 59.69 146.304 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e4a217c3-261b-4028-9c2a-eb182c2b02d0)
     (property "Reference" "H2" (at 62.23 145.669 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1495,6 +1687,30 @@
       (project "keyboardTest"
         (path "/f35e9616-f481-4cdb-9e32-caf70bd322dd"
           (reference "#PWR07") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 33.02 193.04 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
+    (uuid f9017254-62d3-48de-9cee-42e8a680c7b4)
+    (property "Reference" "H5" (at 35.56 192.405 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 35.56 194.945 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 33.02 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 33.02 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "keyboardTest"
+        (path "/f35e9616-f481-4cdb-9e32-caf70bd322dd"
+          (reference "H5") (unit 1)
         )
       )
     )
